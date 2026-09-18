@@ -1,0 +1,25 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+<div class="page-hero">
+  <div class="wrap">
+      <span class="eyebrow">On the Road</span>
+          <h1>The Jersey City Car Rentals Blog</h1>
+              <p>Tips on getting the most out of a direct rental, pickup logistics around the waterfront, and the occasional update from the fleet.</p>
+                </div>
+                </div>
+
+                <section class="wrap">
+                  <div class="post-list">
+                      {% for post in site.posts %}
+                          <a class="post-card" href="{{ post.url }}">
+                                <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+                                      <h2>{{ post.title }}</h2>
+                                            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+                                                </a>
+                                                    {% endfor %}
+                                                      </div>
+                                                      </section>
+                                                      
