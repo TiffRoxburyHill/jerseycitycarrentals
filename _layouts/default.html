@@ -1,60 +1,59 @@
 ---
-  ---
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title %}{{ page.title }} | Jersey City Car Rentals{% else %}Jersey City Car Rentals{% endif %}</title>
-  <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 | default: site.description }}">
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Jersey City Car Rentals{% endif %}">
-  <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 | default: site.description }}">
-  <meta property="og:image" content="{{ site.url }}/elantra-skyline-red.jpg">
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/style.css">
-  </head>
-  <body>
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% if page.title %}{{ page.title }} | Jersey City Car Rentals{% else %}Jersey City Car Rentals{% endif %}</title>
+<meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 | default: site.description }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Jersey City Car Rentals{% endif %}">
+<meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 | default: site.description }}">
+<meta property="og:image" content="{{ site.url }}/elantra-skyline-red.jpg">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
 
-  <header class="site">
-    <nav class="wrap">
-      <a class="brand" href="/">Jersey City Car Rentals
-        <small>Direct &amp; Commission-Free</small>
-      </a>
-      <ul class="nav-links">
-        <li><a href="/#fleet">The Fleet</a></li>
-        <li><a href="/#find">Find Us</a></li>
-        <li><a href="/blog/">Blog</a></li>
-      </ul>
-      <a class="btn btn-primary" href="https://checkout.wheelbasepro.com/r/reserve?owner_id=4490085&amp;rental_category=auto" target="_blank" rel="noopener">Book Your Car</a>
-    </nav>
-  </header>
+<header class="site">
+  <nav class="wrap">
+    <a class="brand" href="/">Jersey City Car Rentals
+      <small>Direct &amp; Commission-Free</small>
+    </a>
+    <ul class="nav-links">
+      <li><a href="/#fleet">The Fleet</a></li>
+      <li><a href="/#find">Find Us</a></li>
+      <li><a href="/blog/">Blog</a></li>
+    </ul>
+    <a class="btn btn-primary" href="https://checkout.wheelbasepro.com/r/reserve?owner_id=4490085&amp;rental_category=auto" target="_blank" rel="noopener">Book Your Car</a>
+  </nav>
+</header>
 
 {{ content }}
 
 <footer>
-    <div class="wrap">
-      <div class="foot-row">
-        <a class="brand" style="color:var(--ink);font-size:16px;" href="/">Jersey City Car Rentals</a>
-        <ul class="foot-links">
-          <li><a href="/#fleet">The Fleet</a></li>
-          <li><a href="/#find">Find Us</a></li>
-          <li><a href="/blog/">Blog</a></li>
-          <li><a href="https://turo.com/us/en/host/27362907" target="_blank" rel="noopener">Also on Turo</a></li>
-        </ul>
-      </div>
-      <p class="foot-fine">&copy; <span id="yr"></span> Jersey City Car Rentals. Jersey City, NJ.</p>
+  <div class="wrap">
+    <div class="foot-row">
+      <a class="brand" style="color:var(--ink);font-size:16px;" href="/">Jersey City Car Rentals</a>
+      <ul class="foot-links">
+        <li><a href="/#fleet">The Fleet</a></li>
+        <li><a href="/#find">Find Us</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="https://turo.com/us/en/host/27362907" target="_blank" rel="noopener">Also on Turo</a></li>
+      </ul>
     </div>
-  </footer>
+    <p class="foot-fine">&copy; <span id="yr"></span> Jersey City Car Rentals. Jersey City, NJ.</p>
+  </div>
+</footer>
 
-  <script>
-    document.getElementById('yr').textContent = new Date().getFullYear();
-  </script>
-  </body>
-  </html>
-  
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
