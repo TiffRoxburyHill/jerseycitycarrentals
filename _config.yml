@@ -1,0 +1,5 @@
+title: Jersey City Car Rentals
+description: "Direct-booking Hyundai rentals in Jersey City, NJ. Skip the marketplace fees and book straight with your host."
+url: "https://jerseycitycarrentals.com"
+baseurl: ""
+permalink: /blog/:title/
