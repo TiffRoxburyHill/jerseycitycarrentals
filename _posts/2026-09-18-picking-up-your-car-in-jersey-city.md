@@ -8,7 +8,7 @@ If this is your first time booking with me directly instead of through an app, h
 
 ## Where we meet
 
-Most pickups happen around Exchange Place or Newport, right on the Jersey City waterfront. It's a two-minute walk from the Hoboken-Jersey City Light Rail and just as easy to reach by PATH train if you're coming from Manhattan. I'll confirm the exact spot by text once your booking is set — it's usually wherever gets you to your destination fastest.
+Most pickups happen around Exchange Place or Newport, right on the Jersey City waterfront. It's a two-minute walk from the Hoboken–Jersey City Light Rail and just as easy to reach by PATH train if you're coming from Manhattan. I'll confirm the exact spot by text once your booking is set — it's usually wherever gets you to your destination fastest.
 
 ## What to bring
 
