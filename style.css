@@ -253,7 +253,7 @@ section{padding-block:76px;}
 }
 .about-copy p:last-of-type{margin-bottom:26px;}
 .about-copy .tagline{
-  font-family:"Montserrat",ssans-serif;
+  font-family:"Montserrat",sans-serif;
   font-style:italic;
   font-size:18px;
   color:var(--gold);
