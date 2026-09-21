@@ -162,6 +162,14 @@ nav.wrap{
   padding-block:56px 52px;
   max-width:680px;
 }
+.hero-textbox{
+  display:inline-block;
+  background:rgba(15,13,10,.55);
+  backdrop-filter:blur(2px);
+  padding:20px 24px;
+  border-radius:10px;
+  margin-bottom:22px;
+}
 .hero h1{
   font-size:clamp(34px,5.4vw,58px);
   line-height:1.04;
@@ -177,7 +185,7 @@ nav.wrap{
   line-height:1.55;
   color:#E4DBC8;
   max-width:46ch;
-  margin-bottom:26px;
+  margin-bottom:0;
 }
 .hero-ctas{
   display:flex;
@@ -237,6 +245,13 @@ section{padding-block:76px;}
   margin:0 0 16px;
 }
 .about-copy p:last-of-type{margin-bottom:26px;}
+.about-copy .tagline{
+  font-family:"Fraunces",serif;
+  font-style:italic;
+  font-size:18px;
+  color:var(--gold);
+  margin:0 0 18px;
+}
 .about-figure{
   position:relative;
   border-radius:6px;
