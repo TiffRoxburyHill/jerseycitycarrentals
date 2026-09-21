@@ -43,7 +43,7 @@ body{
 img{max-width:100%;display:block;}
 a{color:inherit;}
 h1,h2,h3{
-  font-family:"Fraunces",Georgia,serif;
+  font-family:"Montserrat",Georgia,sans-serif;
   font-weight:600;
   text-wrap:balance;
   margin:0;
@@ -80,7 +80,7 @@ nav.wrap{
 }
 .brand{
   color:var(--nav-ink);
-  font-family:"Fraunces",serif;
+  font-family:"Montserrat",sans-serif;
   font-size:19px;
   letter-spacing:.01em;
   line-height:1.15;
@@ -188,7 +188,7 @@ nav.wrap{
   margin-bottom:14px;
 }
 .hero-textbox .tagline{
-  font-family:"Fraunces",serif;
+  font-family:"Montserrat",sans-serif;
   font-style:italic;
   font-size:17px;
   color:var(--gold);
@@ -253,7 +253,7 @@ section{padding-block:76px;}
 }
 .about-copy p:last-of-type{margin-bottom:26px;}
 .about-copy .tagline{
-  font-family:"Fraunces",serif;
+  font-family:"Montserrat",ssans-serif;
   font-style:italic;
   font-size:18px;
   color:var(--gold);
@@ -277,7 +277,7 @@ section{padding-block:76px;}
 .stat{border-left:2px solid var(--accent);padding-left:14px;}
 .stat b{
   display:block;
-  font-family:"Fraunces",serif;
+  font-family:"Montserrat",sans-serif;
   font-size:26px;
   color:var(--ink);
 }
