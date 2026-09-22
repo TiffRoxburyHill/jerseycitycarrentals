@@ -79,12 +79,24 @@ nav.wrap{
   padding-block:16px;
 }
 .brand{
+  display:flex;
+  align-items:center;
+  gap:10px;
   color:var(--nav-ink);
   font-family:"Montserrat",sans-serif;
   font-size:19px;
   letter-spacing:.01em;
   line-height:1.15;
   text-decoration:none;
+}
+.brand-logo{
+  height:38px;
+  width:auto;
+  display:block;
+  flex:none;
+}
+.footer-logo{
+  height:28px;
 }
 .brand small{
   display:block;
