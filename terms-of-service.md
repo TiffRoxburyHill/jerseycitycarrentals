@@ -21,7 +21,7 @@ You will be required to review and accept the Rental Agreement before the vehicl
 
 Renters and all additional drivers must:
 
-- Be at least 25 years old
+- Be at least 21 years old
 - Have a valid, unexpired driver's license recognized in New Jersey
 - Complete required identity and driver's-license verification
 - Provide accurate contact, payment, driver's-license and insurance information
@@ -75,7 +75,7 @@ Returning a vehicle early does not automatically entitle you to a refund or redu
 
 Jersey City Car Rentals operates a self-service rental model.
 
-Unless your Rental Record provides different instructions, pickup and return take place on Level 6 of the parking garage at 135 Greene Street, Jersey City, New Jersey.
+Pickup and return take place at our location in downtown Jersey City, New Jersey. The exact location is provided in your Rental Record.
 
 Vehicle access instructions are provided after the required verification, payment and deposit authorization, coverage verification and rental documents have been completed.
 
@@ -90,7 +90,7 @@ Vehicles may not be used for prohibited activities described in the Rental Agree
 - Racing, drifting, track use or reckless driving
 - Towing or pushing another vehicle, trailer or object
 - Off-road or beach driving
-- Rideshare, delivery, courier, taxi, moving or commercial hauling without prior approval
+- Delivery, courier, taxi, moving or commercial hauling without prior approval
 - Unlawful or fraudulent activity
 - Transporting passengers for hire
 - Travel outside the United States without prior approval

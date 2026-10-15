@@ -19,7 +19,7 @@ By using our website or renting from us, you agree to this policy.
 
 - **Contact details:** name, phone number, email address, mailing address.
 - **Identity and eligibility:** date of birth, driver's license details and photos (front and back), and a selfie or other photo to confirm your identity.
-- **Booking details:** dates, vehicle chosen, pickup and return times, and whether you'll use the car for rideshare or delivery work (Uber, Lyft, DoorDash, etc.).
+- **Booking details:** dates, vehicle chosen, and pickup and return times.
 - **Insurance:** your personal auto insurance details if you bring your own coverage, or the coverage you buy through us.
 - **Payment:** card details and billing address. Our payment processor handles your card; we do not store full card numbers.
 - **Rental agreement:** your electronic signature and the signed agreement.
