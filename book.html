@@ -1,0 +1,43 @@
+---
+layout: default
+title: Book Your Car
+permalink: /book/
+---
+<div class="page-hero">
+  <div class="wrap">
+    <span class="eyebrow">Book Direct</span>
+    <h1>Choose your car</h1>
+    <p>Pick your dates, choose a car and reserve online. Renters must be 21 or older with a valid driver's license.</p>
+  </div>
+</div>
+
+<section class="wrap" style="padding-bottom:48px;">
+  <iframe
+    class="fleetwire-embed"
+    src="https://jersey-city-car-rentals.fleetwire.shop/public"
+    title="Book with Jersey City Car Rentals"
+    style="width:100%;border:0;min-height:1500px"
+    allow="payment"
+  ></iframe>
+  <p style="font-size:14px;margin-top:16px;">Trouble seeing the booking form? <a href="https://jersey-city-car-rentals.fleetwire.shop" target="_blank" rel="noopener">Open it in a new tab</a>.</p>
+</section>
+
+<script>
+  (function () {
+    if (window.__fleetwireEmbedResize) return;
+    window.__fleetwireEmbedResize = true;
+    window.addEventListener("message", function (event) {
+      var data = event.data;
+      if (!data || data.type !== "fleetwire:embed-height") return;
+      var height = parseInt(data.height, 10);
+      if (!isFinite(height) || height < 200 || height > 20000) return;
+      var frames = document.querySelectorAll("iframe.fleetwire-embed");
+      for (var i = 0; i < frames.length; i++) {
+        if (frames[i].contentWindow === event.source) {
+          frames[i].style.height = height + "px";
+          frames[i].style.minHeight = "0";
+        }
+      }
+    });
+  })();
+</script>
