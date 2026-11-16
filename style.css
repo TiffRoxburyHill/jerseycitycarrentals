@@ -583,7 +583,7 @@ footer{
 }
 
 /* ---- Hero box: white card with brand red accents ---- */
-.hero-textbox{background:rgba(255,255,255,.82);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);}
+.hero-textbox{background:rgba(255,255,255,.72);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);}
 .hero .hero-textbox h1{color:#1F2937;}
 .hero .hero-textbox h1 em,
 .hero .hero-textbox .eyebrow,
