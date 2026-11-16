@@ -1,35 +1,36 @@
 :root{
-  --bg:#FAF6EF;
+  --bg:#F5F7FA;
   --surface:#FFFFFF;
-  --ink:#1E1A16;
-  --ink-soft:#5C564C;
-  --accent:#A5342A;
-  --accent-deep:#7C2620;
-  --gold:#B08A48;
-  --line:#E6DECE;
-  --nav-ink:#FAF6EF;
+  --ink:#1F2937;
+  --ink-soft:#4B5563;
+  --accent:#9F2213;
+  --accent-deep:#7A1A0E;
+  --gold:#9F2213;
+  --line:#E2E8F0;
+  --nav-ink:#FFFFFF;
+  --on-dark-accent:#F8B4A8;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --bg:#15130F;
-    --surface:#1D1A15;
-    --ink:#F2ECDF;
-    --ink-soft:#C4BAA6;
-    --accent:#D97D63;
-    --accent-deep:#B8583F;
-    --gold:#D9B778;
-    --line:#332C22;
+    --bg:#0F172A;
+    --surface:#1E293B;
+    --ink:#F1F5F9;
+    --ink-soft:#94A3B8;
+    --accent:#E0705F;
+    --accent-deep:#C2523F;
+    --gold:#F4A79B;
+    --line:#334155;
   }
 }
 :root[data-theme="dark"]{
-  --bg:#15130F;
-  --surface:#1D1A15;
-  --ink:#F2ECDF;
-  --ink-soft:#C4BAA6;
-  --accent:#D97D63;
-  --accent-deep:#B8583F;
-  --gold:#D9B778;
-  --line:#332C22;
+  --bg:#0F172A;
+  --surface:#1E293B;
+  --ink:#F1F5F9;
+  --ink-soft:#94A3B8;
+  --accent:#E0705F;
+  --accent-deep:#C2523F;
+  --gold:#F4A79B;
+  --line:#334155;
 }
 
 *{box-sizing:border-box;}
@@ -37,14 +38,14 @@ body{
   margin:0;
   background:var(--bg);
   color:var(--ink);
-  font-family:"Inter",system-ui,-apple-system,sans-serif;
+  font-family:"Plus Jakarta Sans",system-ui,-apple-system,sans-serif;
   -webkit-font-smoothing:antialiased;
 }
 img{max-width:100%;display:block;}
 a{color:inherit;}
 h1,h2,h3{
-  font-family:"Montserrat",Georgia,sans-serif;
-  font-weight:600;
+  font-family:"Plus Jakarta Sans",system-ui,sans-serif;
+  font-weight:700;
   text-wrap:balance;
   margin:0;
 }
@@ -66,7 +67,7 @@ header.site{
   position:sticky;
   top:env(safe-area-inset-top,0px);
   z-index:50;
-  background:rgba(20,17,13,.55);
+  background:rgba(15,23,42,.6);
   backdrop-filter:blur(10px) saturate(1.2);
   -webkit-backdrop-filter:blur(10px) saturate(1.2);
   border-bottom:1px solid rgba(255,255,255,.08);
@@ -83,7 +84,7 @@ nav.wrap{
   align-items:center;
   gap:10px;
   color:var(--nav-ink);
-  font-family:"Montserrat",sans-serif;
+  font-family:"Plus Jakarta Sans",system-ui,sans-serif;
   font-size:19px;
   letter-spacing:.01em;
   line-height:1.15;
@@ -100,11 +101,11 @@ nav.wrap{
 }
 .brand small{
   display:block;
-  font-family:"Inter",sans-serif;
+  font-family:"Plus Jakarta Sans",system-ui,sans-serif;
   font-size:10.5px;
   letter-spacing:.16em;
   text-transform:uppercase;
-  color:#D9B778;
+  color:var(--on-dark-accent);
   font-weight:600;
   margin-top:2px;
 }
@@ -117,7 +118,7 @@ nav.wrap{
   padding:0;
 }
 .nav-links a{
-  color:#EFE9DC;
+  color:#F1F5F9;
   text-decoration:none;
   font-size:14.5px;
   font-weight:500;
@@ -140,12 +141,12 @@ nav.wrap{
   white-space:nowrap;
 }
 .btn:hover{transform:translateY(-1px);}
-.btn-primary{background:var(--accent);color:#FFF9F2;}
+.btn-primary{background:var(--accent);color:#FFFFFF;}
 .btn-primary:hover{background:var(--accent-deep);}
 .btn-ghost{
   background:transparent;
   border-color:rgba(255,255,255,.55);
-  color:#FAF6EF;
+  color:#FFFFFF;
 }
 .btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.08);}
 .btn-outline-ink{
@@ -166,17 +167,17 @@ nav.wrap{
 .hero::before{
   content:"";
   position:absolute;inset:0;
-  background:linear-gradient(180deg, rgba(15,13,10,.15) 0%, rgba(15,13,10,.35) 55%, rgba(12,10,8,.86) 100%);
+  background:linear-gradient(180deg, rgba(15,23,42,.15) 0%, rgba(15,23,42,.35) 55%, rgba(15,23,42,.86) 100%);
 }
 .hero-inner{
   position:relative;
-  color:#FBF6EC;
+  color:#FFFFFF;
   padding-block:56px 52px;
   max-width:680px;
 }
 .hero-textbox{
   display:inline-block;
-  background:rgba(15,13,10,.55);
+  background:rgba(15,23,42,.55);
   backdrop-filter:blur(2px);
   padding:20px 24px;
   border-radius:10px;
@@ -186,24 +187,24 @@ nav.wrap{
   font-size:clamp(34px,5.4vw,58px);
   line-height:1.04;
   margin-block:14px 16px;
-  color:#FBF6EC;
+  color:#FFFFFF;
 }
 .hero h1 em{
   font-style:italic;
-  color:var(--gold);
+  color:var(--on-dark-accent);
 }
 .hero p.lede{
   font-size:17px;
   line-height:1.55;
-  color:#E4DBC8;
+  color:#E2E8F0;
   max-width:46ch;
   margin-bottom:14px;
 }
 .hero-textbox .tagline{
-  font-family:"Montserrat",sans-serif;
+  font-family:"Plus Jakarta Sans",system-ui,sans-serif;
   font-style:italic;
   font-size:17px;
-  color:var(--gold);
+  color:var(--on-dark-accent);
   margin:0;
 }
 .hero-ctas{
@@ -219,14 +220,14 @@ nav.wrap{
   color:var(--bg);
   padding-block:64px 48px;
 }
-.page-hero .eyebrow{color:var(--gold);}
+.page-hero .eyebrow,.hero .eyebrow,.cta-band .eyebrow{color:var(--on-dark-accent);}
 .page-hero h1{
-  color:#FBF6EC;
+  color:#FFFFFF;
   font-size:clamp(28px,4.2vw,44px);
   margin-top:10px;
 }
 .page-hero p{
-  color:#D8CEBC;
+  color:#CBD5E1;
   font-size:16px;
   margin-top:12px;
   max-width:60ch;
@@ -265,7 +266,7 @@ section{padding-block:76px;}
 }
 .about-copy p:last-of-type{margin-bottom:26px;}
 .about-copy .tagline{
-  font-family:"Montserrat",sans-serif;
+  font-family:"Plus Jakarta Sans",system-ui,sans-serif;
   font-style:italic;
   font-size:18px;
   color:var(--gold);
@@ -289,7 +290,7 @@ section{padding-block:76px;}
 .stat{border-left:2px solid var(--accent);padding-left:14px;}
 .stat b{
   display:block;
-  font-family:"Montserrat",sans-serif;
+  font-family:"Plus Jakarta Sans",system-ui,sans-serif;
   font-size:26px;
   color:var(--ink);
 }
@@ -403,7 +404,7 @@ section{padding-block:76px;}
   border-radius:50%;
   background:var(--ink);
   color:var(--bg);
-  font-family:"Montserrat",sans-serif;
+  font-family:"Plus Jakarta Sans",system-ui,sans-serif;
   font-weight:600;
   font-size:15px;
 }
@@ -455,8 +456,8 @@ section{padding-block:76px;}
   gap:24px;
   flex-wrap:wrap;
 }
-.cta-band h2{color:#FBF6EC;font-size:clamp(22px,3vw,30px);max-width:520px;}
-.cta-band p{color:#C9BFA9;margin-top:8px;font-size:15px;}
+.cta-band h2{color:#FFFFFF;font-size:clamp(22px,3vw,30px);max-width:520px;}
+.cta-band p{color:#CBD5E1;margin-top:8px;font-size:15px;}
 
 /* ---- FOOTER ---- */
 footer{
@@ -532,7 +533,7 @@ footer{
 .post-head h1{
   font-size:clamp(28px,4vw,40px);
   margin-top:10px;
-  color:#FBF6EC;
+  color:#FFFFFF;
 }
 .post-body{
   max-width:70ch;
