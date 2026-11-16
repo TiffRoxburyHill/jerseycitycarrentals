@@ -8,7 +8,7 @@
   --gold:#9F2213;
   --line:#E2E8F0;
   --nav-ink:#FFFFFF;
-  --on-dark-accent:#94A3B8;
+  --on-dark-accent:#E2E8F0;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
@@ -581,3 +581,11 @@ footer{
   .find-copy{padding:32px 24px;}
   .faq-item{padding:18px 20px;}
 }
+
+/* ---- Hero box: white card with brand red accents ---- */
+.hero-textbox{background:rgba(255,255,255,.95);backdrop-filter:none;}
+.hero .hero-textbox h1{color:#1F2937;}
+.hero .hero-textbox h1 em,
+.hero .hero-textbox .eyebrow,
+.hero .hero-textbox .tagline{color:#9F2213;}
+.hero .hero-textbox p.lede{color:#4B5563;}
